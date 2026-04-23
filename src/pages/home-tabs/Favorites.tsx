@@ -17,13 +17,13 @@ const Favorites: React.FC = () =>{
       <IonItem>
         <IonSelect placeholder="Select a Fruit">
           <div slot="label">
-            Favorite Fruit <IonText color="danger">(Required)</IonText>
+            Favorite Food <IonText color="danger">(Required)</IonText>
           </div>
-          <IonSelectOption value="apple">Apple</IonSelectOption>
-          <IonSelectOption value="banana">Banana</IonSelectOption>
-          <IonSelectOption value="orange">Orange</IonSelectOption>
-          <IonSelectOption value="orange">Manggo</IonSelectOption>
-          <IonSelectOption value="orange">Pineapple</IonSelectOption>
+          <IonSelectOption value="adobo">adobo</IonSelectOption>
+          <IonSelectOption value="Friedchicken">Friedchicken</IonSelectOption>
+          <IonSelectOption value="humba">humba</IonSelectOption>
+          <IonSelectOption value="babae">babae</IonSelectOption>
+          <IonSelectOption value="inihaw">inihaw</IonSelectOption>
         </IonSelect>
       </IonItem>
     </IonList>
